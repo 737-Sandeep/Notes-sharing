@@ -78,7 +78,7 @@ def index():
 
 @app.route('/admin', methods=['GET', 'POST'])
 def admin_login():
-    valid_passwords = ['test', 'password']  # Replace in production
+    valid_passwords = ['Sandeep_1904', 'everyone']  # Replace in production
 
     if request.method == 'POST':
         password = request.form['password']
